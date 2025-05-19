@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/beecrowdDesafios.iml" filepath="$PROJECT_DIR$/beecrowdDesafios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beecrowdDesafiosBasicosJava.iml" filepath="$PROJECT_DIR$/beecrowdDesafiosBasicosJava.iml" />
     </modules>
   </component>
 </project>
