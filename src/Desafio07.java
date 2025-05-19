@@ -7,5 +7,7 @@ public class Desafio07 {
         double volume = (4 / 3.0 ) *  3.14159 * raioDaEsfera * raioDaEsfera * raioDaEsfera;
         System.out.printf("VOLUME = %.3f\n", volume);
 
+        // voce pode fazer dessa forma: (4 / 3.0 ) *  3.14159 * Math.pow(raioDaEsfera, 3)
+
     }
 }
