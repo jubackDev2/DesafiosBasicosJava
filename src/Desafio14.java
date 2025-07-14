@@ -10,7 +10,7 @@ public class Desafio14 {
 
 
         int n = sc.nextInt();
-        int y = n;
+        int valorDeN = n;
         int cedulasDe100= n / 100;
 
         n = n % 100;
@@ -26,7 +26,7 @@ public class Desafio14 {
         int cedulasDe1 = n /1;
         n = n%1;
 
-        System.out.println(y);
+        System.out.println(valorDeN);
         System.out.println(cedulasDe100+ " nota(s) de 100,00");
         System.out.println(cedulasDe50+ " nota(s) de 50,00");
         System.out.println(cedulasDe20+" nota(s) de 20,00");
@@ -35,7 +35,7 @@ public class Desafio14 {
         System.out.println(cedulasDe2+" nota(s) de 2,00");
         System.out.println(cedulasDe1+" nota(s) de 1,00");
 
-        System.out.println();
+
 
 
 
