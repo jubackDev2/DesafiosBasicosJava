@@ -1,7 +1,8 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Desafio14 {
+public class Desafio1 {
+
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
@@ -9,25 +10,26 @@ public class Desafio14 {
 
 
 
+
         int n = sc.nextInt();
-        int valorInteiro = n;
-        int cedulasDe100= n / 100;
+        int valorInteiro = n ;
+        int cedulasDe100= valorInteiro / 100;
 
-        n = n % 100;
-        int cedulasDe50 = n / 50;
-        n = n%50;
-        int cedulasDe20 = n /20;
-        n = n % 20;
-        int cedulasDe10 = n / 10;
-        n = n%10;
-        int cedulasDe5 = n / 5;
-        n = n%5;
-        int cedulasDe2 = n / 2;
-        n = n%2;
-        int cedulasDe1 = n /1;
-        n = n%1;
+        valorInteiro = valorInteiro % 100;
+        int cedulasDe50 = valorInteiro / 50;
+        valorInteiro = valorInteiro % 50;
+        int cedulasDe20 = valorInteiro /20;
+        valorInteiro = valorInteiro % 20;
+        int cedulasDe10 = valorInteiro / 10;
+        valorInteiro =  valorInteiro % 10;
+        int cedulasDe5 = valorInteiro / 5;
+        valorInteiro = valorInteiro % 5;
+        int cedulasDe2 = valorInteiro / 2;
+        valorInteiro =  valorInteiro % 2;
+        int cedulasDe1 = valorInteiro / 1;
 
-        System.out.println(valorInteiro);
+
+        System.out.println(n);
         System.out.println(cedulasDe100+ " nota(s) de 100,00");
         System.out.println(cedulasDe50+ " nota(s) de 50,00");
         System.out.println(cedulasDe20+" nota(s) de 20,00");
@@ -35,6 +37,16 @@ public class Desafio14 {
         System.out.println(cedulasDe5+" nota(s) de 5,00");
         System.out.println(cedulasDe2+" nota(s) de 2,00");
         System.out.println(cedulasDe1+" nota(s) de 1,00");
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -53,4 +65,5 @@ public class Desafio14 {
 
 
     }
+
 }
