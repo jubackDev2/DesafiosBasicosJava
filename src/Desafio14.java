@@ -11,6 +11,7 @@ public class Desafio14 {
 
         int n = sc.nextInt();
         int valorInteiro = n;
+
         int cedulasDe100= n / 100;
 
         n = n % 100;
@@ -25,7 +26,7 @@ public class Desafio14 {
         int cedulasDe2 = n / 2;
         n = n%2;
         int cedulasDe1 = n /1;
-        n = n%1;
+
 
         System.out.println(valorInteiro);
         System.out.println(cedulasDe100+ " nota(s) de 100,00");
